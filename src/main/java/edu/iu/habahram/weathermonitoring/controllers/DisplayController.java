@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class DisplayController {
     private CurrentConditionDisplay currentConditionDisplay;
 
-    public DisplayController(CurrentConditionDisplay currentConditionDisplay
-                             ) {
+    public DisplayController(CurrentConditionDisplay currentConditionDisplay) {
         this.currentConditionDisplay = currentConditionDisplay;
     }
 
